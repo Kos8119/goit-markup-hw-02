@@ -1,0 +1,46 @@
+:root {
+  --main-text-color: #212121;
+  --header-bg-color: #ffffff;
+  --hero-bg-color: #2f303a;
+  --body-bg-color: #e5e5e5;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--main-text-color);
+  background-color: var(--body-bg-color);
+  font-family: roboto, sans-serif;
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--header-bg-color);
+  cursor: pointer;
+}
+/*Header*/
+.header {
+  background-color: var(--header-bg-color);
+}
+.webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: #000000;
+}
+/*hero*/
+.hero {
+  background-color: var(--hero-bg-color);
+}
+/*footer*/
+.footer {
+  background-color: var(--hero-bg-color);
+}
+.foot-studio {
+  color: var(--header-bg-color);
+}
