@@ -146,7 +146,8 @@ address {
   background-color: var(--body-bg-color);
 }
 
-.team-cards h3 {
+.team-cards h3,
+.team-cards p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -154,10 +155,6 @@ address {
   color: var(--main-text-color);
 }
 .team-cards p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-
   color: var(--secondary-text-color);
 }
 
@@ -205,8 +202,8 @@ address {
 .foot-studio {
   color: var(--header-bg-color);
 }
-.footer-contact :hover,
-.footer-contact :focus {
+.footer-contacts a:hover,
+.footer-contacts a:focus {
   color: var(--accent-color);
 }
 .footer-contacts a {
